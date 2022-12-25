@@ -1,5 +1,5 @@
 import wave, struct, math, random
-from PIL import Image
+from PIL import Image # might need to use: pip install pillow
 
 img = Image.new('RGB', (1200,400), "black")
 pix = img.load()
